@@ -13,4 +13,8 @@ class ApplicationController < Sinatra::Base
     erb :temp
   end
   
+  post "/results" do
+    params.to_s
+  end
+  
 end
