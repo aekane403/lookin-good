@@ -1,8 +1,0 @@
-tags:
-  - sinatra
-  - mvc
-languages:
-  - ruby
-  - sinatra
-resources: 1
-parent_template: git@github.com:learn-co-curriculum/sinatra-mvc-file-structure.git
