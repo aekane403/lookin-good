@@ -1,7 +1,13 @@
+ENV['SINATRA_ENV'] ||= "development"
+ENV['RACK_ENV'] ||= "development"
+
+require 'bundler'
+Bundler.require(:default, ENV['SINATRA_ENV'])
+
 class ApplicationController < Sinatra::Base
 
   configure do
-  	set :views, "app/views"
+  	set :views, "views"
   	set :public_dir, "public"
   end
 
