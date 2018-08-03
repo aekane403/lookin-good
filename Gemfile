@@ -1,14 +1,14 @@
-source 'http://rubygems.org'
+# A sample Gemfile
 
-gem 'sinatra'
-gem 'tux'
-gem 'require_all'
-gem 'rake'
-gem 'thin'
+source "https://rubygems.org"
+
+
+
+
 gem 'shotgun'
+
 gem 'pry'
 
-group :test do
-  gem 'rspec'
-  gem 'rack-test'
-end
+gem 'sinatra'
+
+# gem 'heroku'
